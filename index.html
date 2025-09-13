@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bem-vindo à Nuvem do Google!</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Google+Sans:wght@400;500;700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <style>
+        /* --- Estilos Gerais --- */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html, body {
+            height: 100%;
+            font-family: 'Roboto', sans-serif;
+            background-color: #ffffff; /* Fundo branco, padrão Google */
+            color: #3c4043; /* Cor de texto padrão do Google */
+        }
+
+        /* --- Header / Navegação Superior --- */
+        .header {
+            display: flex;
+            align-items: center;
+            padding: 20px 40px;
+        }
+
+        .logo {
+            height: 28px;
+            margin-right: 12px;
+        }
+
+        .header-title {
+            font-family: 'Google Sans', sans-serif;
+            font-size: 22px;
+            font-weight: 500;
+            color: #5f6368;
+        }
+
+        /* --- Conteúdo Principal Centralizado --- */
+        .main-container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            min-height: 80vh; /* Ocupa 80% da altura da tela para centralizar verticalmente */
+            padding: 20px;
+        }
+
+        .main-heading {
+            font-family: 'Google Sans', sans-serif;
+            font-size: 3.5rem; /* 56px */
+            font-weight: 700;
+            color: #1a73e8; /* Azul principal do Google */
+            margin-bottom: 16px;
+        }
+
+        .sub-heading {
+            font-size: 1.25rem; /* 20px */
+            max-width: 650px;
+            line-height: 1.6;
+            margin-bottom: 32px;
+        }
+
+        .cta-button {
+            display: inline-block;
+            background-color: #1a73e8; /* Azul principal do Google */
+            color: #ffffff;
+            font-family: 'Google Sans', sans-serif;
+            font-weight: 500;
+            font-size: 1rem;
+            text-decoration: none;
+            padding: 14px 28px;
+            border-radius: 4px;
+            transition: background-color 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .cta-button:hover {
+            background-color: #185abc; /* Tom de azul mais escuro para hover */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        /* --- Responsividade para telas menores --- */
+        @media (max-width: 768px) {
+            .main-heading {
+                font-size: 2.5rem;
+            }
+            .sub-heading {
+                font-size: 1.1rem;
+            }
+            .header {
+                padding: 15px 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header class="header">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/Google_Cloud_logo.svg" alt="Google Cloud Logo" class="logo">
+       
+    </header>
+
+    <main class="main-container">
+        <img src="o-que-e-google-cloud.jpg" width="500px" height="300px"/>
+        <h1 class="main-heading">Bem-vindo à Nuvem do Google!</h1>
+        <p class="sub-heading">A plataforma de nuvem global do Google. Crie, colabore e inove na mesma infraestrutura que move a Pesquisa, o YouTube e o Gmail.</p>
+        <a class="cta-button" href="https://cloud.google.com/free?utm_source=PMAX&utm_medium=display&utm_campaign=FY25_H1&utm_content=latampaidmedia_br_smb_dr_rda_gcp_pmax_FY25_H1_cloudstyle-patterns-artboard1_luac0021001_1710136&utm_term=-&gclsrc=aw.ds&gad_source=1&gad_campaignid=22113798131&gclid=Cj0KCQjwrJTGBhCbARIsANFBfgu1P-H2nyr53lv8_yqxA_1l3gJ2LPoSWtgpiACqeY3DykPuF-H-bmUaAsMPEALw_wcB&hl=pt_br">Coneça nossas Soluções</a>
+    </main>
+
+</body>
+</html>
